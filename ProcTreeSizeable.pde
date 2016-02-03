@@ -3,7 +3,7 @@ float firstLength = 200;
 float firstWidth = 18;
 
 // upper and lower bounds for the random percentage by which branches will be shrunk each iteration
-float minScale = .4;
+float minScale = .5;
 float maxScale = .8;
 
 // lower threshold for branch width and length. recursion will stop when either is reached
@@ -18,11 +18,11 @@ PShape leaf;
 
 // minimum and maximum number of branches per split
 int minBranches = 2;
-int maxBranches = 5;
+int maxBranches = 4;
 
 // minimum and maximum angle
-float minAngle = -50;
-float maxAngle = 50;
+float minAngle = -40;
+float maxAngle = 40;
 
 void setup() {
   // setup the window (size and color)
